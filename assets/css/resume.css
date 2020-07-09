@@ -1,4 +1,9 @@
 div {
-  margin: 0 3% 0 3%;
-  padding: 2%;
+  margin: 1% 0% 1% 0%;
+  padding: 0.7%;
+}
+
+.btn a:hover {
+  text-decoration: none;
+  color: white;
 }
