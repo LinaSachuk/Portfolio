@@ -212,7 +212,7 @@ a {
 
 a:hover {
   border-bottom-color: transparent;
-  color: #49bf9d !important;
+  color: #238f71 !important;
   text-decoration: none;
 }
 
@@ -2562,8 +2562,8 @@ input[type='submit']:hover,
 input[type='reset']:hover,
 input[type='button']:hover,
 .button:hover {
-  border-color: #49bf9d;
-  color: #49bf9d !important;
+  border-color: rgb(149, 149, 245);
+  color: rgb(149, 149, 245) !important;
 }
 
 input[type='submit']:active,
@@ -2615,8 +2615,8 @@ input[type='submit'].primary,
 input[type='reset'].primary,
 input[type='button'].primary,
 .button.primary {
-  background-color: #49bf9d;
-  border-color: #49bf9d;
+  background-color: #238f71;
+  border-color: #238f71;
   color: #ffffff !important;
 }
 
@@ -2624,8 +2624,8 @@ input[type='submit'].primary:hover,
 input[type='reset'].primary:hover,
 input[type='button'].primary:hover,
 .button.primary:hover {
-  background-color: #5cc6a7;
-  border-color: #5cc6a7;
+  background-color: #238f71;
+  border-color: #238f71;
 }
 
 input[type='submit'].primary:active,
@@ -2692,7 +2692,7 @@ input[type='button']:disabled,
   justify-content: space-between;
   background-color: #1f1815;
   background-attachment: scroll, scroll;
-  background-image: url('images/overlay.png'), url('../../images/bg.jpg');
+  background-image: url('images/overlay.png'), url('../../images/bg1.jpg');
   background-position: top left, top left;
   background-repeat: repeat, no-repeat;
   background-size: auto, 150%;
@@ -2751,10 +2751,15 @@ input[type='button']:disabled,
 
 #footer .icons {
   margin: 1em 0 0 0;
+  font-size: 1.5em;
 }
 
 #footer .icons a {
-  color: rgba(255, 255, 255, 0.4);
+  color: whitesmoke;
+}
+
+#my_icon a:hover {
+  color: rgb(149, 149, 245) !important;
 }
 
 #footer .copyright {
